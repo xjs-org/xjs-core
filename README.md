@@ -108,7 +108,7 @@ const greeting = h.div(
 
 ## 3. Dynamic Attributes
 
-You can bind signals or functions to any HTML attribute.
+You can bind signals or functions to any HTML attribute. Whenever the value of the signal change, attribute value automatically gets updated.
 
 ```JavaScript
 
