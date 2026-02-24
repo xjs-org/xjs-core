@@ -73,7 +73,7 @@ A utility to safely append children to a node. Handles strings, Nodes, nested ar
 
 # 🛠 Usage Examples
 
-## 1. Basic Counter
+## Basic Counter
 
 The bread and butter of reactivity. Notice how count is passed directly as a child.
 
@@ -90,7 +90,7 @@ const counter = h.div(
 document.body.append(counter);
 ```
 
-2. Functional Derivations (Computed)
+## Functional Derivations (Computed)
 
 If you pass a function as a child or attribute, the library automatically tracks any signals used inside it.
 
@@ -106,7 +106,7 @@ const greeting = h.div(
 );
 ```
 
-## 3. Dynamic Attributes
+## Dynamic Attributes
 
 You can bind signals or functions to any HTML attribute. Whenever the value of the signal change, attribute value automatically gets updated.
 
