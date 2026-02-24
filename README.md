@@ -48,15 +48,15 @@ const methods = XJS.apiProxy("api-endpoint-url", {options})
 
 Creates a reactive state container.
 
-### 1 .value:
+### .value:
 
 Get or set the current state.
 
-### 2 .isSignal:
+### .isSignal:
 
 Identify if its instance of signal.
 
-### 3 onSignal(callback):
+### onSignal(callback):
 
 Manually subscribe to changes.
 
