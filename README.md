@@ -22,18 +22,18 @@ Save the library files and import them into your project:
 
 ```JavaScript
 
-import { html, signal, append } from 'https://cdn.jsdelivr.net/gh/xjs-org/xjs-core@main/release/html.min.js';
+import { html, signal, append } from 'https://cdn.jsdelivr.net/gh/xjs-org/xjs-core@latest/release/html.min.js';
 ```
 ```JavaScript
 
-import { apiProxy } from 'https://cdn.jsdelivr.net/gh/xjs-org/xjs-core@main/release/api.min.js';
+import { apiProxy } from 'https://cdn.jsdelivr.net/gh/xjs-org/xjs-core@latest/release/api.min.js';
 ```
 
 
 ## CDN link
 
 ``` html
-<script src="https://cdn.jsdelivr.net/gh/xjs-org/xjs-core@main/release/xjs.min.js" crossorigin></script>
+<script src="https://cdn.jsdelivr.net/gh/xjs-org/xjs-core@latest/release/xjs.min.js" crossorigin></script>
 ```
 ```JavaScript
 
