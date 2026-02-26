@@ -1,4 +1,4 @@
-# 🛰️ XJS - v0.0.1
+# 🛰️ XJS-Core - v0.0.1
 
 ## Ultra-lightweight UI library - Minimal & Zero Dependencies ~0.8kb (gzipped)
 
@@ -22,18 +22,18 @@ Save the library files and import them into your project:
 
 ```JavaScript
 
-import { html, signal, append } from 'https://cdn.jsdelivr.net/gh/xjs-org/xjs@main/release/html.min.js';
+import { html, signal, append } from 'https://cdn.jsdelivr.net/gh/xjs-org/xjs-core@main/release/html.min.js';
 ```
 ```JavaScript
 
-import { apiProxy } from 'https://cdn.jsdelivr.net/gh/xjs-org/xjs@main/release/api.min.js';
+import { apiProxy } from 'https://cdn.jsdelivr.net/gh/xjs-org/xjs-core@main/release/api.min.js';
 ```
 
 
 ## CDN link
 
 ``` html
-<script src="https://cdn.jsdelivr.net/gh/xjs-org/xjs@main/release/xjs.min.js" crossorigin></script>
+<script src="https://cdn.jsdelivr.net/gh/xjs-org/xjs-core@main/release/xjs.min.js" crossorigin></script>
 ```
 ```JavaScript
 
